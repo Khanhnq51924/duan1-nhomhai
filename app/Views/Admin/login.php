@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
 <head>
+    
+    </style>
     <meta charset="utf-8">
     <meta name="author" content="themesflat.com">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -32,10 +34,10 @@
         <!-- #page -->
         <div id="page" class="">
             <div class="login-page">
-                <div class="left">
-                    <div class="login-box">
+                <div class="left" style='background: linear-gradient(to bottom,rgb(60, 8, 8),rgb(76, 23, 169));'>
+                    <div class="login-box" >
                         <div>
-                            <h3>ĐĂNG NHẬP</h3>
+                            <img src="assets/Admin/images/logo_bestbalo.png" alt="" style='width:300px; margin-left:90px'>
                            
                         </div>
                         <div class="error">
@@ -49,11 +51,11 @@
                         <form class="form-login flex flex-column gap22 w-full" action="?role=admin&act=post-login" method="post">
                             <fieldset class="email">
                                 <div class="body-title mb-10 text-white">Nhập địa chỉ email</div>
-                                <input class="flex-grow" type="email" placeholder="Nhập địa chỉ email tại đây..." name="email" tabindex="0" value="" aria-required="true" required="">
+                                <input class="flex-grow" style= 'border: 2px solid rgb(203, 199, 190);background: linear-gradient(to bottom,rgb(176, 55, 55),rgb(117, 75, 190));font-size: 18px;' type="email" placeholder="Nhập địa chỉ email tại đây..." name="email" tabindex="0" value="" aria-required="true" required="">
                             </fieldset>
                             <fieldset class="password">
                                 <div class="body-title mb-10 text-white">Nhâp mật khẩu</div>
-                                <input class="password-input" type="password" placeholder="Nhập mật khẩu..." name="password" tabindex="0" value="" aria-required="true" required="">
+                                <input class="password-input" style= 'border: 2px solid rgb(203, 199, 190);background: linear-gradient(to bottom,rgb(176, 55, 55),rgb(117, 75, 190));font-size: 18px;' type="password" placeholder="Nhập mật khẩu..." name="password" tabindex="0" value="" aria-required="true" required="">
                                 <span class="show-pass">
                                     <i class="icon-eye view"></i>
                                     <i class="icon-eye-off hide"></i>
