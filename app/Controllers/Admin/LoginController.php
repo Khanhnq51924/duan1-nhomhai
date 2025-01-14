@@ -10,15 +10,15 @@ class LoginController{
 
         if($dataUsers){
             $_SESSION['users'] = [
-               'id' => $dataUsers->id,
+                'id' => $dataUsers->id,
                 'name' => $dataUsers->name,
                 'email' => $dataUsers->email
             ];
-            header("Location: " . BASE_URL . "?role=admin&act=home");
+            header("Location: ?role=admin&act=home");
             exit;
         }else{
-            $_SESSION['error'] = "email hoặc mật khẩu không đúng";
-            header("Location: " . BASE_URL . "?role=admin&act=login");
+            $_SESSION['error'] = "Email hoặc Password không đúng!";
+            header("Location: ?role=admin&act=login");
             exit;
         }
     }
@@ -27,10 +27,8 @@ class LoginController{
         if(isset($_SESSION['users'])){
             unset($_SESSION['users']);
         }
-
-        $_SESSION['error'] = "đăng nhập thành công";
-        header("Location: " . BASE_URL . "?role=admin&act=login");
-        exit;
+        $_SESSION['error'] = "Đăng xuất thành công";
+            header("Location: ?role=admin&act=login");
+            exit;
     }
 }
-?>

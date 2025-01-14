@@ -308,7 +308,3 @@
       transform: scale3d(1, 1, 1);
   }
 }
-
-input::placeholder {
-  color:rgb(123, 123, 123); /* Màu chữ placeholder (ở đây là màu đỏ cam) */
-}
