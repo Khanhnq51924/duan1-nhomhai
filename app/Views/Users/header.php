@@ -25,20 +25,20 @@
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
 
 		<!-- Bootstrap -->
-		<link type="text/css" rel="stylesheet" href="public/layout/css/bootstrap.min.css"/>
+		<link type="text/css" rel="stylesheet" href="assets/Users/css/bootstrap.min.css"/>
 
 		<!-- Slick -->
-		<link type="text/css" rel="stylesheet" href="public/layout/css/slick.css"/>
-		<link type="text/css" rel="stylesheet" href="public/layout/css/slick-theme.css"/>
+		<link type="text/css" rel="stylesheet" href="assets/Users/css/slick.css"/>
+		<link type="text/css" rel="stylesheet" href="assets/Users/css/slick-theme.css"/>
 
 		<!-- nouislider -->
-		<link type="text/css" rel="stylesheet" href="public/layout/css/nouislider.min.css"/>
+		<link type="text/css" rel="stylesheet" href="assets/Users/css/nouislider.min.css"/>
 
 		<!-- Font Awesome Icon -->
-		<link rel="stylesheet" href="public/layout/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/Users/css/font-awesome.min.css">
 
 		<!-- Custom stlylesheet -->
-		<link type="text/css" rel="stylesheet" href="public/layout/css/style.css"/>
+		<link type="text/css" rel="stylesheet" href="assets/Users/css/style.css"/>
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -74,7 +74,7 @@
 						<div class="col-md-3">
 							<div class="header-logo">
 								<a href="#" class="logo">
-									<img src="./public/layout/img//logo.png" alt="" style = "width:140px; border-radius: 30px;">
+									<img src="./assets/Users/img//logo.png" alt="" style = "width:140px; border-radius: 30px;">
 								</a>
 							</div>
 						</div>
@@ -101,13 +101,13 @@
 								<!-- Cart -->
 								<div class="dropdown">
 									<ul class="header-links pull-right">
-						<li><a href="#"><i class="fa fa-user-o"></i> Cá Nhân</a></li>
+						<li><a href='?role=admin&act=login'><i class="fa fa-user-o"></i> Cá Nhân</a></li>
 									</ul>
 									<div class="cart-dropdown">
 										<div class="cart-list">
 											<div class="product-widget">
 												<div class="product-img">
-													<img src="./public/layout/img//product01.png" alt="">
+													<img src="./assets/Users/img//product01.png" alt="">
 												</div>
 												<div class="product-body">
 													<h3 class="product-name"><a href="#">product name goes here</a></h3>
@@ -118,7 +118,7 @@
 
 											<div class="product-widget">
 												<div class="product-img">
-													<img src="./public/layout/img//product02.png" alt="">
+													<img src="./assets/Users/img//product02.png" alt="">
 												</div>
 												<div class="product-body">
 													<h3 class="product-name"><a href="#">product name goes here</a></h3>

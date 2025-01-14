@@ -1,40 +1,32 @@
 <?php
-$role = isset($_GET['role']) ? $_GET['role'] : "users";
+
+$role = isset($_GET['role']) ? $_GET['role'] : "user";
 $act = isset($_GET['act']) ? $_GET['act'] : "";
 
-// phần login người users
-if($role == "user"){
-    switch($act) {
-        case '':{
-            $dashBoardController = new DashboardController();
-            $dashBoardController->dashboard();
-            break;       
-        }
-    }
-}else{
-
-// phần login của admin
-    switch($act) {
-        case 'home':{
+// Đăng nhập user
+if ($role == "user") {
+        include "app/Views/Users/index.php";
+} else {
+    // Đăng nhập Admin
+    switch ($act) {
+        case 'home':
             $homeController = new HomeController();
             $homeController->dashboard();
             break;
-        }
-        case 'login':{
+
+        case 'login':
             $loginController = new LoginController();
             $loginController->login();
             break;
-        }           
-        case 'post-login':{
+
+        case 'post-login':
             $loginController = new LoginController();
             $loginController->postLogin();
             break;
-        }
-        case 'logout':{
+
+        case 'logout':
             $loginController = new LoginController();
             $loginController->logout();
             break;
-        }
     }
 }
-?>

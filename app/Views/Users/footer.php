@@ -95,12 +95,12 @@
 <!-- /FOOTER -->
 
 		<!-- jQuery Plugins -->
-		<script src="public/layout/js//jquery.min.js"></script>
-		<script src="public/layout/js//bootstrap.min.js"></script>
-		<script src="public/layout/js//slick.min.js"></script>
-		<script src="public/layout/js//nouislider.min.js"></script>
-		<script src="public/layout/js//jquery.zoom.min.js"></script>
-		<script src="public/layout/js//main.js"></script>
+		<script src="assets/Users/js//jquery.min.js"></script>
+		<script src="assets/Users/js//bootstrap.min.js"></script>
+		<script src="assets/Users/js//slick.min.js"></script>
+		<script src="assets/Users/js//nouislider.min.js"></script>
+		<script src="assets/Users/js//jquery.zoom.min.js"></script>
+		<script src="assets/Users/js//main.js"></script>
 
 	</body>
 </html>

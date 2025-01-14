@@ -149,7 +149,7 @@
                                                 </a>
                                             </li>
                                            
-                                                <a href="<?=BASE_URL?>?role=admin&act=logout" class="user-item">
+                                                <a href="?role=admin&act=logout" class="user-item">
                                                     <div class="icon">
                                                         <i class="icon-log-out"></i>
                                                     </div>
