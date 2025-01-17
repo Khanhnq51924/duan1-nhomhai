@@ -15,9 +15,10 @@
 			.ok{
 				font-size:10px;
 			}
-			#header .container{
-				height:65px;
+			.login{
+				float:left;
 			}
+			
 		</style>
 		<title>Trang Chủ</title>
 
